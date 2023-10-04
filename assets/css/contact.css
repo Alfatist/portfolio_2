@@ -1,0 +1,7 @@
+.contact {
+  background-color: var(--azul);
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 2em;
+}

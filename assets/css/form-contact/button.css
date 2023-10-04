@@ -1,0 +1,7 @@
+.button__form_contact {
+  background-color: var(--azul-forte);
+  border: none;
+  color: var(--branco-total);
+  padding: 0.75em 1em;
+  width: fit-content;
+}

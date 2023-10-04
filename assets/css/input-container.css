@@ -1,0 +1,19 @@
+.input-container {
+  background-color: #fff;
+  border-radius: 4px;
+  border-bottom: var(--preto-opaco) solid 1px;
+  box-sizing: content-box;
+  display: block;
+  height: 3em;
+  padding: 0 5px 0 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.input-container:last-of-type {
+  height: auto;
+}
+
+.input-container:has(.input__input-container:focus) {
+  border-bottom: var(--azul-forte) solid 2px;
+}

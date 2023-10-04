@@ -1,0 +1,9 @@
+.photo__about {
+  background-image: url(../../img/professional_photo.jpg);
+  background-repeat: no-repeat;
+  background-position: 0.1px;
+  background-size: cover;
+  border-radius: 50%;
+  height: 6.1em;
+  width: 6.1em;
+}

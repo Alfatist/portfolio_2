@@ -1,0 +1,6 @@
+.buttons {
+  display: flex;
+  max-width: 85%;
+  gap: 1em;
+  width: fit-content;
+}

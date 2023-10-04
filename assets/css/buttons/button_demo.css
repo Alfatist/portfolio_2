@@ -1,0 +1,11 @@
+.button_demo__buttons {
+  display: block;
+  padding: 0.75em 1em;
+
+  background-color: var(--azul-forte);
+  color: var(--branco-total);
+}
+
+.button_demo__buttons::after {
+  background-image: url(../../img/arrow_back_white_24dp\ 3.svg) !important;
+}

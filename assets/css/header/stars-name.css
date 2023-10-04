@@ -1,0 +1,8 @@
+.stars__name {
+  background-image: url(../../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1.5em;
+  margin-right: 0.5em;
+  width: 1.5em;
+}

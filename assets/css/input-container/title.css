@@ -1,0 +1,19 @@
+.title__input-container {
+  color: var(--preto-fosco);
+  left: 20px;
+  pointer-events: none;
+  position: absolute;
+  top: 1em;
+}
+
+.input__input-container:focus + .title__input-container,
+.input__input-container:not(:placeholder-shown) + .title__input-container {
+  font-size: 11px;
+  left: 20px;
+  top: 6px;
+  transform: translateY(0);
+}
+
+.input__input-container:focus + .title__input-container {
+  color: var(--azul-forte);
+}

@@ -1,0 +1,7 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em;
+  background-color: var(--azul);
+}

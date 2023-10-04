@@ -1,0 +1,10 @@
+.button_repository__buttons {
+  display: block;
+  padding: 0.75em 1em;
+  border: 1px solid #2a7ae4;
+  color: #2a7ae4;
+}
+
+.button_repository__buttons::after {
+  background-image: url(../../img/arrow_back_blue_24dp\ 2.svg) !important;
+}

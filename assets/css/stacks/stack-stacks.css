@@ -1,0 +1,9 @@
+.stack__stacks {
+  height: 7.375rem;
+  background-color: var(--branco-total);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 0.5em;
+  padding: 1em;
+}

@@ -1,0 +1,7 @@
+@media screen and (min-width: 704px) {
+  .content__about {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+}

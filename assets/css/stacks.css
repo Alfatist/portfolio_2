@@ -5,3 +5,9 @@
   list-style: none;
   margin: 1em 0;
 }
+
+@media screen and (min-width: 704px) {
+  .stacks {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

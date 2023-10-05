@@ -1,0 +1,9 @@
+.formation__formations {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.formation__formations:nth-child(n + 1) {
+  padding: 2em 0 0.5em;
+}

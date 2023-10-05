@@ -3,3 +3,10 @@
   flex-direction: column;
   gap: 1em;
 }
+
+@media screen and (min-width: 704px) {
+  .about {
+    flex-direction: row-reverse;
+    gap: 2em;
+  }
+}

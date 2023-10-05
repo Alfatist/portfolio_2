@@ -1,0 +1,13 @@
+.formations {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+@media screen and (min-width: 704px) {
+  .formations {
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

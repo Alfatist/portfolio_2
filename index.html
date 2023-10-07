@@ -225,7 +225,7 @@
       </section>
 
       <section class="contact" role="contentinfo" id="contato">
-        <img class="image__contact" src="./assets/img/toriel.png" alt="Imagem de undertale" aria-disabled="true" />
+        <img class="image__contact" src="./assets/img/toriel.png" alt="Imagem de undertale" aria-disabled="true" data-image />
         <div class="container__contact">
           <div class="about__contact" role="banner">
             <h2 class="title__contact">Contato</h2>
@@ -260,6 +260,18 @@
         </div>
       </section>
 
+      <script>
+        let image = document.querySelector("[data-image]");
+        image.style.height = image.nextElementSibling.clientHeight + "px";
+
+        window.addEventListener("resize", () => {
+          if (image.clientHeight !== image.nextElementSibling.clientHeight) {
+            image.style.height = image.nextElementSibling.clientHeight + "px";
+            console.log(image.style.height);
+            console.log(image.nextElementSibling.clientHeight);
+          }
+        });
+      </script>
       <footer class="footer">©Created by <a target="_blank" href="https://github.com/Alfatist">Alfatist</a></footer>
     </main>
   </body>

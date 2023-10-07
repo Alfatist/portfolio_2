@@ -5,6 +5,7 @@
   gap: 2em;
   padding: 2em;
   padding-top: 4em;
+  align-items: start;
 }
 
 .contact_image {

@@ -1,6 +1,7 @@
 .image__contact {
   display: none;
   width: auto;
+  height: 0;
 }
 
 @media screen and (min-width: 1200px) {

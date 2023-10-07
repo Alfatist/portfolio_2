@@ -4,5 +4,10 @@
   gap: 1em;
   padding: 2em;
   background-color: var(--azul);
-  font-size: 2em;
+}
+
+@media screen and (min-width: 1200px) {
+  .experience {
+    font-size: 2em;
+  }
 }

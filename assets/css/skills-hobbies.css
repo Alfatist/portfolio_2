@@ -8,4 +8,7 @@
   .skills-hobbies {
     font-size: 2em;
   }
+  .skills-hobbies:nth-of-type(n + 2) {
+    padding-top: 0 !important;
+  }
 }

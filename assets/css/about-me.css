@@ -5,6 +5,8 @@
   gap: 1em;
   position: relative;
   padding: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 @media screen and (min-width: 1200px) {

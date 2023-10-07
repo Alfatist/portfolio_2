@@ -1,3 +1,9 @@
 .title__skills-hobbies {
   text-align: center;
 }
+
+@media screen and (min-width: 1200px) {
+  .title__skills-hobbies {
+    font-size: 2rem;
+  }
+}

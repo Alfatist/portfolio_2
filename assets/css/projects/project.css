@@ -3,3 +3,23 @@
   flex-direction: column;
   gap: 0.5em;
 }
+
+@media screen and (min-width: 1440px) {
+  .project__projects {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "second first";
+  }
+
+  .project__projects:nth-of-type(2n + 2) {
+    grid-template-columns: 1fr 2fr;
+  }
+  .project__projects:nth-of-type(2n + 2) > *:first-child {
+    grid-area: first;
+    grid-template-columns: 1fr 2fr;
+  }
+  .project__projects:last-child > img:last-child {
+    grid-area: second;
+  }
+}

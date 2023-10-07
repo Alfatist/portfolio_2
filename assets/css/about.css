@@ -8,5 +8,6 @@
   .about {
     flex-direction: row-reverse;
     gap: 2em;
+    justify-content: center;
   }
 }

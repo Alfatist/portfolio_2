@@ -10,18 +10,21 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/header/email-header.css" />
     <link rel="stylesheet" href="./assets/css/header/name.css" />
     <link rel="stylesheet" href="./assets/css/header/stars-name.css" />
+
+    <link rel="stylesheet" href="./assets/css/menu.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menubar.css" />
 
     <link rel="stylesheet" href="./assets/css/main.css" />
 
     <link rel="stylesheet" href="./assets/css/about.css" />
     <link rel="stylesheet" href="./assets/css/about/photo-about.css" />
-    <link rel="stylesheet" href="./assets/css/about/pitch-about.css" />
     <link rel="stylesheet" href="./assets/css/about/links-about.css" />
     <link rel="stylesheet" href="./assets/css/about/content.css" />
+
     <link rel="stylesheet" href="./assets/css/about-me.css" />
+    <link rel="stylesheet" href="./assets/css/about-me/title.css" />
 
     <link rel="stylesheet" href="./assets/css/skills-hobbies.css" />
     <link rel="stylesheet" href="./assets/css/skills-hobbies/title-skills-hobbies.css" />
@@ -32,6 +35,7 @@
 
     <link rel="stylesheet" href="./assets/css/projects.css" />
     <link rel="stylesheet" href="./assets/css/projects/project.css" />
+    <link rel="stylesheet" href="./assets/css/projects/project-info.css" />
 
     <link rel="stylesheet" href="./assets/css/buttons.css" />
     <link rel="stylesheet" href="./assets/css/buttons/button_demo.css" />
@@ -46,7 +50,8 @@
     <link rel="stylesheet" href="./assets/css/formations.css" />
 
     <link rel="stylesheet" href="./assets/css/contact.css" />
-    <link rel="stylesheet" href="./assets/css/contact/form.css" />
+    <link rel="stylesheet" href="./assets/css/contact/title.css" />
+    <link rel="stylesheet" href="./assets/css/contact/container.css" />
     <link rel="stylesheet" href="./assets/css/input-container.css" />
     <link rel="stylesheet" href="./assets/css/form-contact.css" />
     <link rel="stylesheet" href="./assets/css/form-contact/button.css" />
@@ -61,7 +66,16 @@
         <div class="stars__name" role="img"></div>
         Alfatista
       </div>
-      <span><small>mateushprofissional@gmail.com</small></span>
+      <div class="menu">
+        <ul class="menubar__menu" role="menubar">
+          <li><a href="#sobre-mim">Sobre Mim</a></li>
+          <li><a href="#habilidades">Skills</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#experiencia">Projetos</a></li>
+        </ul>
+        <span><small>mateushprofissional@gmail.com</small></span>
+      </div>
 
       <h1>Portfólio do Mateus Henrique</h1>
     </header>
@@ -86,22 +100,25 @@
           </ul>
         </div>
       </section>
-      <section class="about-me" role="contentinfo">
-        <h2>Sobre mim</h2>
-        <p>
-          <small
-            >Desde 2022 Já atuava como desenvolvedor front-end no CEFET-RJ, em freelas, em comunidades (incluindo uma minha) e já construí bibliotecas
-            open-source. tenho experiência com times ágeis e já participei de projetos em python, Java e .net.</small
-          >
-        </p>
-        <p>
-          <small>
-            Procuro ser o mais franco e assertivo possível no trabalho; por isso, não é atípico eu ficar horas fazendo a análise dos requisitos, e
-            posteriormente manter o cliente informado sobre cada nova etapa do processo.</small
-          >
-        </p>
+      <section class="about-me" role="contentinfo" id="sobre-mim">
+        <div>
+          <h2 class="title__about-me">Sobre mim</h2>
+          <p>
+            <small
+              >Desde 2022 Já atuava como desenvolvedor front-end no CEFET-RJ, em freelas, em comunidades (incluindo uma minha) e já construí
+              bibliotecas open-source. tenho experiência com times ágeis e já participei de projetos em python, Java e .net.</small
+            >
+          </p>
+          <p>
+            <small>
+              Procuro ser o mais franco e assertivo possível no trabalho; por isso, não é atípico eu ficar horas fazendo a análise dos requisitos, e
+              posteriormente manter o cliente informado sobre cada nova etapa do processo.</small
+            >
+          </p>
+        </div>
       </section>
-      <section class="skills-hobbies" role="contentinfo">
+
+      <section class="skills-hobbies" role="contentinfo" id="habilidades">
         <h2 class="title__skills-hobbies">Habilidades</h2>
         <ul class="stacks">
           <li class="stack__stacks"><i class="fa-brands fa-angular"></i> Angular</li>
@@ -117,57 +134,69 @@
           <li class="stack__stacks"><i class="fa-brands fa-java"></i>Java</li>
         </ul>
       </section>
-      <section class="skills-hobbies" role="contentinfo">
+      <section class="skills-hobbies" role="contentinfo" id="hobbies">
         <h2 class="title__skills-hobbies">Hobbies</h2>
         <ul class="stacks">
-          <li class="stack__stacks"><i class="fa-solid fa-users"></i>Passar um tempo com a família</li>
+          <li class="stack__stacks"><i class="fa-solid fa-users"></i>Curtir a família</li>
           <li class="stack__stacks"><i class="fa-solid fa-headphones-simple"></i>Ouvir música</li>
-          <li class="stack__stacks"><i class="fa-regular fa-comments"></i>Conversar com outras pessoas</li>
+          <li class="stack__stacks"><i class="fa-regular fa-comments"></i>Conversar</li>
           <li class="stack__stacks"><i class="fa-solid fa-book-open"></i>Estudar</li>
-          <li class="stack__stacks"><i class="fa-regular fa-futbol"></i>Assistir futebol</li>
+          <li class="stack__stacks"><i class="fa-regular fa-futbol"></i>Assistir esportes</li>
           <li class="stack__stacks"><i class="fa-solid fa-person-walking"></i>Passear</li>
         </ul>
       </section>
-      <section class="experience" role="contentinfo">
+      <section class="experience" role="contentinfo" id="experiencia">
         <h2 class="title__experience">Experiência profissional</h2>
         <ul class="projects">
           <li class="project__projects">
-            <img src="./assets/img/primeira_imagem.webp" alt="" />
-            <h3>Frutas e frutos</h3>
-            <div class="buttons">
-              <a target="_blank" href="https://github.com/Alfatist/Fruta-e-Frutos" class="button_repository__buttons">Repositório</a>
-              <a target="_blank" href="https://alfatist.github.io/Fruta-e-Frutos/" class="button_demo__buttons">Ver demo</a>
+            <img src="./assets/img/primeira_imagem.webp" alt="Foto do projeto frutas e frutos" />
+            <div class="project_info__projects">
+              <h3>Frutas e frutos</h3>
+              <small>Uma landing page</small>
+              <div class="buttons">
+                <a target="_blank" href="https://github.com/Alfatist/Fruta-e-Frutos" class="button_repository__buttons">Repositório</a>
+                <a target="_blank" href="https://alfatist.github.io/Fruta-e-Frutos/" class="button_demo__buttons">Ver demo</a>
+              </div>
             </div>
           </li>
           <li class="project__projects">
-            <img src="./assets/img/Quarta_imagem.webp" alt="" />
-            <h3>Apeperia</h3>
-            <div class="buttons">
-              <a target="_blank" href="https://github.com/Alfatist/Apeperia" class="button_repository__buttons">Repositório</a>
-              <a target="_blank" href="https://alfatist.github.io/Apeperia/" class="button_demo__buttons">Ver demo</a>
-            </div>
-          </li>
-
-          <li class="project__projects">
-            <img src="./assets/img/segunda_imagem.webp" alt="" />
-            <h3>Sorteador de equipes</h3>
-            <div class="buttons">
-              <a target="_blank" href="https://github.com/Alfatist/teams-simple-sorter" class="button_repository__buttons">Repositório</a>
-              <a target="_blank" href="https://alfatist.github.io/teams-simple-sorter/" class="button_demo__buttons">Ver demo</a>
+            <img src="./assets/img/Quarta_imagem.webp" alt="Foto do projeto Apeperia" />
+            <div class="project_info__projects">
+              <h3>Apeperia</h3>
+              <small>Outra landing page</small>
+              <div class="buttons">
+                <a target="_blank" href="https://github.com/Alfatist/Apeperia" class="button_repository__buttons">Repositório</a>
+                <a target="_blank" href="https://alfatist.github.io/Apeperia/" class="button_demo__buttons">Ver demo</a>
+              </div>
             </div>
           </li>
 
           <li class="project__projects">
-            <img src="./assets/img/terceira_imagem.webp" alt="" />
-            <h3>Decodificador de texto</h3>
-            <div class="buttons">
-              <a target="_blank" href="https://github.com/Alfatist/Text-decoder" class="button_repository__buttons">Repositório</a>
-              <a target="_blank" href="https://alfatist.github.io/Text-decoder/" class="button_demo__buttons">Ver demo</a>
+            <img src="./assets/img/segunda_imagem.webp" alt="Foto do Sorteador de Equipes" />
+            <div class="project_info__projects">
+              <h3>Sorteador de equipes</h3>
+              <small>Um sistema para ajudar uma comunidade minha</small>
+              <div class="buttons">
+                <a target="_blank" href="https://github.com/Alfatist/teams-simple-sorter" class="button_repository__buttons">Repositório</a>
+                <a target="_blank" href="https://alfatist.github.io/teams-simple-sorter/" class="button_demo__buttons">Ver demo</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="project__projects">
+            <img src="./assets/img/terceira_imagem.webp" alt="Foto do Decodificador de texto" />
+            <div class="project_info__projects">
+              <h3>Decodificador de texto</h3>
+              <small>Uma brincadeira</small>
+              <div class="buttons">
+                <a target="_blank" href="https://github.com/Alfatist/Text-decoder" class="button_repository__buttons">Repositório</a>
+                <a target="_blank" href="https://alfatist.github.io/Text-decoder/" class="button_demo__buttons">Ver demo</a>
+              </div>
             </div>
           </li>
         </ul>
       </section>
-      <section class="formation" role="contentinfo">
+      <section class="formation" role="contentinfo" id="formacao">
         <h2 class="title__formation">Formação Acadêmica</h2>
         <ul class="formations">
           <li class="formation__formations">
@@ -187,42 +216,47 @@
           <li class="formation__formations">
             <img src="./assets/img/sesi-senai.webp" alt="logo do Sesi e Senai" />
             <div class="informations__formations">
-              <h3>Qualificação em programação back-end</h3>
+              <h3>Programador back-end</h3>
               <p>2023 - Sesi Senai</p>
             </div>
           </li>
         </ul>
       </section>
 
-      <section class="contact" role="contentinfo">
-        <div class="about__contact" role="banner">
-          <h2>Contato</h2>
-          <p><small>Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</small></p>
+      <section class="contact" role="contentinfo" id="contato">
+        <img src="./assets/img/toriel.png" alt="Imagem de undertale" aria-disabled="true" />
+        <div class="container__contact">
+          <div class="about__contact" role="banner">
+            <h2 class="title__contact">Contato</h2>
+            <p><small>Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</small></p>
+          </div>
+
+          <!-- <img src="./assets/img/toriel.png" alt="Imagem de undertale" aria-disabled="true" /> -->
+          <form action="#" class="form_contact">
+            <label class="input-container" for="name-input"
+              ><input type="text" id="name-input" class="input__input-container" placeholder=" " /><span class="title__input-container"
+                >Nome</span
+              ></label
+            >
+            <label class="input-container" for="email-input"
+              ><input type="text" id="email-input" class="input__input-container" placeholder=" " /><span class="title__input-container"
+                >Email</span
+              ></label
+            >
+
+            <label class="input-container" for="subject-input"
+              ><input type="text" id="subject-input" class="input__input-container" placeholder=" " /><span class="title__input-container"
+                >Subject</span
+              ></label
+            >
+            <label class="input-container" for="message">
+              <textarea rows="6" id="message" class="input__input-container" placeholder=" " maxlength="140"></textarea
+              ><span class="title__input-container">Message</span></label
+            >
+
+            <input type="submit" value="Enviar mensagem" class="button__form_contact" />
+          </form>
         </div>
-        <form action="#" class="form_contact">
-          <label class="input-container" for="name-input"
-            ><input type="text" id="name-input" class="input__input-container" placeholder=" " /><span class="title__input-container"
-              >Nome</span
-            ></label
-          >
-          <label class="input-container" for="email-input"
-            ><input type="text" id="email-input" class="input__input-container" placeholder=" " /><span class="title__input-container"
-              >Email</span
-            ></label
-          >
-
-          <label class="input-container" for="subject-input"
-            ><input type="text" id="subject-input" class="input__input-container" placeholder=" " /><span class="title__input-container"
-              >Subject</span
-            ></label
-          >
-          <label class="input-container" for="message">
-            <textarea rows="6" id="message" class="input__input-container" placeholder=" " maxlength="140"></textarea
-            ><span class="title__input-container">Message</span></label
-          >
-
-          <input type="submit" value="Enviar mensagem" class="button__form_contact" />
-        </form>
       </section>
 
       <footer class="footer">©Created by <a target="_blank" href="https://github.com/Alfatist">Alfatist</a></footer>

@@ -3,3 +3,9 @@
   flex-direction: column;
   gap: 1em;
 }
+
+@media screen and (min-width: 1200px) {
+  .skills-hobbies {
+    font-size: 2em;
+  }
+}

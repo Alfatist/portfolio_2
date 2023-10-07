@@ -11,3 +11,9 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+@media screen and (min-width: 1300px) {
+  .stacks {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}

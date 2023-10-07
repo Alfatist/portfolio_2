@@ -4,4 +4,10 @@
   flex-direction: column;
   gap: 2em;
   padding: 2em;
+  padding-top: 4em;
+}
+
+.contact_image {
+  height: 100%;
+  width: auto;
 }

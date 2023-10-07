@@ -1,0 +1,10 @@
+.menubar__menu {
+  display: flex;
+  gap: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+  .menubar__menu {
+    display: none;
+  }
+}
